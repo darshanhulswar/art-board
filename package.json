@@ -1,0 +1,24 @@
+{
+  "name": "art-board",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch --no-source-map styles/scss/bootstrap.scss styles/css/bootstrap.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darshan20J/art-board.git"
+  },
+  "author": "Darshan Hulswar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darshan20J/art-board/issues"
+  },
+  "homepage": "https://github.com/Darshan20J/art-board#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "sass": "^1.42.1"
+  }
+}

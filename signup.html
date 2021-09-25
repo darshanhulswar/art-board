@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 class="display-2">Register yourself</h1>
+          <form
+            class="w-50 my-4 p-4 bg-secondary rounded"
+            id="reg-form"
+            name="reg-form"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="first-name" class="font-weight-bolder"
+                >First Name</label
+              >
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="John"
+                class="form-control font-weight-bolder text-primary"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="last-name" class="font-weight-bolder"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Doe"
+                class="form-control font-weight-bolder text-primary"
+                autocomplete="off"
+              />
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group">
+              <label for="Gender" class="d-block font-weight-bolder"
+                >Gender</label
+              >
+              <div class="formcheck form-check-inline">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  class="form-check-input"
+                />
+                <label for="male" class="form-check-label font-weight-bolder"
+                  >Male</label
+                >
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                  class="form-check-input"
+                />
+                <label for="female" class="form-check-label font-weight-bolder"
+                  >Female</label
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="font-weight-bolder">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="jdoe@gmail.com"
+                class="form-control font-weight-bolder text-primary"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="mob-no" class="font-weight-bolder"
+                >Mobile Number</label
+              >
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="9485796585"
+                class="form-control font-weight-bolder text-primary"
+                autocomplete="off"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="font-weight-bolder">Password</label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="**********"
+                class="form-control font-weight-bolder text-primary"
+                autocomplete="off"
+              />
+            </div>
+
+            <input
+              name="submit"
+              class="btn btn-danger btn-lg my-3"
+              type="submit"
+              value="Create my account"
+            />
+          </form>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Board - Homepage</title>
+    <link rel="stylesheet" href="./styles/css/bootstrap.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Signin</h1>
+
+        <form
+          class="w-50 my-4 p-4 bg-secondary rounded"
+          id="reg-form"
+          name="reg-form"
+          method="POST"
+          action="handle-form.php"
+        >
+          <div class="form-group">
+            <label for="email" class="font-weight-bolder">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="jdoe@gmail.com"
+              class="
+                form-control form-control-lg
+                font-weight-bolder
+                text-primary
+              "
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="font-weight-bolder">Password</label>
+            <input
+              type="text"
+              name="password"
+              id="password"
+              placeholder="**********"
+              class="
+                form-control form-control-lg
+                font-weight-bolder
+                text-primary
+              "
+              autocomplete="off"
+            />
+          </div>
+
+          <input
+            name="signin"
+            class="btn btn-danger btn-lg mt-4"
+            type="submit"
+            value="Sign in"
+          />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
